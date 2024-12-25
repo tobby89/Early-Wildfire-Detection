@@ -3,6 +3,9 @@
 ## 🔥 Project Description
 This project explores the efficacy of Convolutional Neural Networks (CNN) and Image Enhancement techniques for early wildfire detection. By leveraging advancements in Pixel Distribution Learning (PDL) methods used in background subtraction, the project aims to enhance image datasets, enabling more efficient detection and classification of wildfires.
 
+<img width="930" alt="image" src="https://github.com/user-attachments/assets/586f4f42-f224-4930-b00a-6d2d12e9d031" />
+
+
 ## 🏗️ Technical Architecture
 The system implements a two-stage detection process:
 1. **Primary Detection**: CNN identifies anomalies in satellite imagery
@@ -22,11 +25,15 @@ The system implements a two-stage detection process:
 - Enhancement of satellite image quality
 - Optimization for small smoke particle detection
 
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/f679e7d8-5a08-401c-ba4f-aa0f1256c775" />
+
 ### 2. Image Processing Pipeline
 - **Stage 1**: CNN-based clustering of pre-processed images
 - **Stage 2**: Deep Pixel Distribution Learning for background subtraction
 - **Stage 3**: Classification of background-subtracted images
 - **Stage 4**: Result compilation and analysis
+
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/b429346d-a834-4948-9e1a-610c503c08c5" />
 
 ### 3. Classification Process
 - Identification of multiple elements:
@@ -35,12 +42,17 @@ The system implements a two-stage detection process:
   - Haze patterns
   - Land features
   - Smoke signatures
+ 
+<img width="933" alt="image" src="https://github.com/user-attachments/assets/5e76e0af-c49d-4384-af4e-978782e795a1" />
 
 ## 📈 Performance Metrics
 ### Improvements Achieved
 - Training accuracy increase: **10.326**
 - Validation loss reduction: **1.106**
 - Validation accuracy: **25.803** (3x improvement)
+
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/5d2efb7f-1d6f-47b5-a83b-b54915d019a1" />
+
 
 ### Evaluation Criteria
 - Accuracy measurements
@@ -97,9 +109,6 @@ Contributions to improve the wildfire detection system are welcome. Please feel 
 - USTC SmokeRS dataset
 - CNN and YOLO framework documentation
 - Pixel Distribution Learning research papers
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ---
 
