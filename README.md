@@ -1,25 +1,27 @@
 # Early Detection of Wildfire using CNN and Pixel Distribution Learning
 
-## 🔥 Project Description
+## Project Description
 This project explores the efficacy of Convolutional Neural Networks (CNN) and Image Enhancement techniques for early wildfire detection. By leveraging advancements in Pixel Distribution Learning (PDL) methods used in background subtraction, the project aims to enhance image datasets, enabling more efficient detection and classification of wildfires.
 
 <img width="930" alt="image" src="https://github.com/user-attachments/assets/586f4f42-f224-4930-b00a-6d2d12e9d031" />
 
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 The system implements a two-stage detection process:
 1. **Primary Detection**: CNN identifies anomalies in satellite imagery
 2. **Location Identification**: YOLO framework pinpoints exact smoke/fire locations
 3. **Dual Weight System**: Utilizes two distinct weight sets within the CNN classifier
 4. **Integration Layer**: Combines CNN and YOLO outputs for final detection
 
-## 📊 Dataset
+## Dataset
 - **Source**: USTC SmokeRS dataset
 - **Type**: Comprehensive satellite-based imagery
 - **Technology**: Based on Moderate Resolution Imaging Spectroradiometer (MODIS) data
 - **Composition**: Multiple categories including smoke, cloud, dust, haze, and land scenes
 
-## 🛠️ Methodology
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/833b3c33-f5d4-4645-aa32-05b073de99e5" />
+
+## Methodology
 ### 1. Data Pre-processing
 - Implementation of Generative Adversarial Networks (GANs)
 - Enhancement of satellite image quality
@@ -45,7 +47,7 @@ The system implements a two-stage detection process:
  
 <img width="933" alt="image" src="https://github.com/user-attachments/assets/5e76e0af-c49d-4384-af4e-978782e795a1" />
 
-## 📈 Performance Metrics
+## Performance Metrics
 ### Improvements Achieved
 - Training accuracy increase: **10.326**
 - Validation loss reduction: **1.106**
@@ -60,7 +62,7 @@ The system implements a two-stage detection process:
 - Recall rates
 - F1 score calculations
 
-## 🔬 Technical Implementation
+## Technical Implementation
 ### Core Components
 1. **CNN Architecture**
    - Custom-designed convolutional layers
@@ -77,7 +79,7 @@ The system implements a two-stage detection process:
    - Real-time processing capabilities
    - Optimized for satellite imagery
 
-## 🚧 Challenges and Solutions
+## Challenges and Solutions
 ### Data Acquisition
 - **Challenge**: Limited availability of real-time smoke detection data
 - **Solution**: Utilization of satellite imagery and GAN-based enhancement
@@ -86,7 +88,7 @@ The system implements a two-stage detection process:
 - **Challenge**: Complex background separation
 - **Solution**: Implementation of advanced PDL techniques
 
-## 🔮 Future Development
+## Future Development
 ### Planned Enhancements
 1. **Algorithm Optimization**
    - Integration of recurrent networks
@@ -102,13 +104,12 @@ The system implements a two-stage detection process:
    - Accuracy enhancement
    - Real-time processing capabilities
 
-## 🤝 Contributing
+## Contributing
 Contributions to improve the wildfire detection system are welcome. Please feel free to submit pull requests or open issues for discussion.
 
-## 📚 References
-- USTC SmokeRS dataset
-- CNN and YOLO framework documentation
-- Pixel Distribution Learning research papers
+## References
+- USTC SmokeRS dataset : https://complex.ustc.edu.cn/sjwwataset/list.htm
+- Pixel Distribution Learning research papers : https://ieeexplore.ieee.org/document/8486510
 
 ---
 
